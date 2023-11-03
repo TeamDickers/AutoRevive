@@ -14,7 +14,7 @@ namespace AutoRevive;
 
 public class AutoRevivePlugin : RocketPlugin<AutoReviveConfig>
 {
-    private static AutoRevivePlugin Instance { get; set; }
+    public static AutoRevivePlugin Instance { get; set; }
 
     private AutoReviveConfig Config => Configuration.Instance;
 
@@ -28,7 +28,7 @@ public class AutoRevivePlugin : RocketPlugin<AutoReviveConfig>
                 "There is no position in the configuration with UseDefaultPosition: false");
         }
 
-        AssemblyName assemblyName = Assembly.GetName();
+        var assemblyName = Assembly.GetName();
 
         Rocket.Core.Logging.Logger.Log($@"
 
