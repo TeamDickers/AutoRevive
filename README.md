@@ -7,8 +7,7 @@ AutoRevive - Unturned RocketMod Plugin.
 - /araddposition or /araddpos (The command that adds the location of the executing user to the configuration)
 
 # Changelog
-1.0.0.1 - Added command /araddposition
-1.0.0.0 - Initial release
+1.0.0.1 - Added command /araddposition\n1.0.0.0 - Initial release
 
 # Support
 https://vk.com/teamdickers or https://vk.com/da_ya_slava
